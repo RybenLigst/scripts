@@ -31,7 +31,7 @@ def generate_secure_password(length=12):
     # Перетворюємо список символів у рядок
     return ''.join(password)
 
-# Приклад використання
+# Використання
 if __name__ == "__main__":
     desired_length = 16  # Встановіть бажану довжину пароля
     secure_password = generate_secure_password(desired_length)
