@@ -1,1 +1,1 @@
-# python_skripts
+# python_scripts
