@@ -33,6 +33,6 @@ def generate_secure_password(length=12):
 
 # Використання
 if __name__ == "__main__":
-    desired_length = 16  # Встановіть бажану довжину пароля
+    desired_length = 16  # Довжина пароля
     secure_password = generate_secure_password(desired_length)
     print(f"Згенерований надійний пароль: {secure_password}")
